@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Formularios y retroalimentación al usuario</title>
+</head>
+
+<body class="body_targets">
+  <!--Asignar cita-->
+  <div class="cont_form cont_cita">
+  <form class="nueva_cita">
+    <h2>Nueva cita</h2>
+    <img  src="sources/calendar_add_on_FILL0_wght400_GRAD0_opsz482.svg" alt="Icono calendario">
+    <h3>Información del paciente:</h3>
+    <div class="campos">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" placeholder="abcdefg">
+
+      <label for="numero">Telefónico:</label>
+      <input type="tel" id="numero" placeholder="123 456 789">
+
+      <label for="correo">Correo:</label>
+      <input type="email" name="correo" id="correo" placeholder="abcd@xyo.com">
+
+      <label>Fecha:</label>
+      <input type="datetime-local">
+
+    </div>
+    <div>
+      <select>
+        <option>Procedimiento 1</option>
+        <option>Procedimiento 2</option>
+        <option>Procedimiento 3</option>
+        <option>Procedimiento 4</option>
+        <option>Procedimiento 5</option>
+        <option>Procedimiento 6</option>
+      </select>
+      <select>
+        <option>Especialista 1</option>
+        <option>Especialista 2</option>
+        <option>Especialista 3</option>
+        <option>Especialista 4</option>
+      </select>
+    </div>
+    <div>
+      <div class="resumen_cita">
+        <h3>Resumen de la cita</h3>
+        <p>Nombre:</p>
+        <p>Procedimiento:</p>
+        <p>Especialista:</p>
+        <p>Valor:</p>
+        <p>Fecha:</p>
+        <p>Hora:</p>
+      </div>
+      <input type="submit" value="Agendar">
+    </div>
+  </form>
+</div>
+<!--Agregar especialista-->
+<div class="cont_form cont_esp">
+  <form class="nuevo_esp">
+    <h2>Nuevo especialista.</h2>
+    <img src="sources/clinical_notes_FILL0_wght400_GRAD0_opsz48.svg" alt="Icono lista">
+    <div class="campos">
+      <label>Nombre:</label>
+      <input type="text" placeholder="abcdefg">
+      <label>Correo:</label>
+      <input type="email" placeholder="abcde@email.com">
+      <label>Teléfono:</label>
+      <input type="text" placeholder="1234567890">
+    </div>
+    <section>
+      <h5>Disponibilidad:</h5>
+      <input type="month">
+      <div class="calendario">
+        <p>DO</p>
+        <p>LU</p>
+        <p>MA</p>
+        <p>MI</p>
+        <p>JU</p>
+        <p>VI</p>
+        <p>SA</p>
+        <div class="dia">
+          <input type="checkbox" id="d01">
+          <label for="d01">01</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d02">
+          <label for="d02">02</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d03">
+          <label for="d03">02</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d04">
+          <label for="d04">03</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d05">
+          <label for="d05">04</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d06">
+          <label for="d06">05</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d07">
+          <label for="d07">07</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d08">
+          <label for="d08">08</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d09">
+          <label for="d09">09</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d10">
+          <label for="d10">10</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d11">
+          <label for="d11">11</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d12">
+          <label for="d12">12</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d13">
+          <label for="d13">13</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d14">
+          <label for="d14">14</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d15">
+          <label for="d15">15</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d16">
+          <label for="d16">16</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d17">
+          <label for="d17">17</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d18">
+          <label for="d18">18</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d19">
+          <label for="d19">19</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d20">
+          <label for="d20">20</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d21">
+          <label for="d21">21</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d22">
+          <label for="d22">22</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d23">
+          <label for="d23">23</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d24">
+          <label for="d24">24</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d25">
+          <label for="d25">25</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d26">
+          <label for="d26">26</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d27">
+          <label for="d27">27</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d28">
+          <label for="d28">28</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d29">
+          <label for="d29">29</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d30">
+          <label for="d30">30</label>
+        </div>
+        <div class="dia">
+          <input type="checkbox" id="d31">
+          <label for="d31">31</label>
+        </div>
+        <button class="button_calendario">Seleccionar todos</button>
+      </div>
+    </section>
+    <h5>Procedimiento:</h5>
+    <select>
+      <option value="">Procedimiento A</option>
+      <option value="">Procedimiento B</option>
+      <option value="">Procedimiento C</option>
+      <option value="">Procedimiento D</option>
+      <option value="">Procedimiento E</option>
+    </select>
+    <p class="nota">Si el procedimiento no se encuentra en la lista de opciones por favor escriba el
+      nombre del mismo en el campo de texto, y entre paréntesis escriba la descripción y el costo separados por un
+      asterisco.</p>
+    <input type="text" >
+    <input type="submit" value="Crear">
+  </form>
+</div>
+
+  <!--Cambiar contraseña-->
+  <div class="cont_form">
+    <form class="form cambio_contrasena">
+      <h2>Cambiar contraseña</h2>
+      <img src="sources/vpn_key_alert_FILL0_wght400_GRAD0_opsz48.svg" alt="Icono llave">
+
+      <label>Contraseña actual:</label>
+      <input type="password" placeholder="+-¡++#$%">
+
+
+      <label>Nueva contraseña:</label>
+      <input type="password" placeholder="+-¡++#$%">
+
+
+      <label>Repita su nueva contraseña:</label>
+      <input type="password" placeholder="+-¡++#$%">
+
+      <input type="submit" value="Confirmar">
+    </form>
+  </div>
+  <!--Cambiar correo-->
+  <div class="cont_form">
+    <form class="form cambio_correo">
+      <h2>Cambiar correo</h2>
+      <img src="sources/inbox_customize_FILL0_wght400_GRAD0_opsz48.svg" alt="Icono ajuste">
+
+      <label>Anterior correo:</label>
+      <input type="email" placeholder="abc@def.ghi">
+
+      <label>Nuevo correo:</label>
+      <input type="email" placeholder="abc@def.ghi">
+
+      <label>Ingrese su contraseña:</label>
+      <input type="password" placeholder="+-¡++#$%">
+
+      <input type="submit" value="Confirmar">
+    </form>
+  </div>
+  <!--Actualizar datos admin-->
+  <div class="cont_form">
+    <form class="form actualizar_datos">
+      <h2>Actualizar datos</h2>
+      <img src="sources/clinical_notes_FILL0_wght400_GRAD0_opsz48.svg" alt="Icono lista">
+
+      <label>Nombre:</label>
+      <input type="text" placeholder="abc@def.ghi">
+
+      <label>Contacto:</label>
+      <input type="tel" placeholder="123 456 789">
+
+      <label>Ingrese su contraseña:</label>
+      <input type="password" placeholder="+-¡++#$%">
+
+      <input type="submit" value="Confirmar">
+    </form>
+  </div>
+  <!--Agregar administrador-->
+  <div class="cont_form">
+    <form>
+      <h2>Datos administrador</h2>
+      <img src="sources/assignment_turned_in_FILL0_wght400_GRAD0_opsz48.svg" alt="Icono tabla-confirmación">
+
+      <label>Nombre:</label>
+      <input type="text" placeholder="abcdefg">
+
+      <label>Teléfono</label>
+      <input type="tel" placeholder="12345678">
+
+      <label>Correo:</label>
+      <input type="email" placeholder="abcde@email.com">
+
+      <label>Contraseña:</label>
+      <input type="password" placeholder="+-¡++#$%">
+
+      <input type="submit" value="Crear">
+    </form>
+  </div>
+
+  <!--Agregar administrador-->
+  <div class="cont_form">
+    <form>
+      <h2>Ingrese los datos</h2>
+      <img src="sources/person_add_FILL0_wght400_GRAD0_opsz48.svg" alt="Icono agregar">
+
+      <label>Nombre:</label>
+      <input type="text" placeholder="abcd efg hijklm">
+
+      <label>Correo:</label>
+      <input type="email" placeholder="abcde@email.com">
+
+      <label>Contacto:</label>
+      <input type="tel" placeholder="12345678">
+
+      <label>Asigne una contraseña:</label>
+      <input type="password" placeholder="**********">
+
+      <label>Valide la contraseña:</label>
+      <input type="password" placeholder="**********">
+
+      <label>Ingrese su contraseña:</label>
+      <input type="password" placeholder="**********">
+
+      <input type="submit" value="Crear">
+    </form>
+  </div>
+  <!--Objetos de interacción dinámica de implementación posterior con AJAX-->
+  
+  <section class="section_targets">
+    <div class="target">
+      <h4>Usuario no válido</h4>
+      <img src="sources/person_off_FILL0_wght400_GRAD0_opsz48.svg" alt="Icono usuario denegado">
+      <button>Aceptar</button>
+    </div>
+    <!--Error de contraseña-->
+    <div class="target">
+      <h4>Error de contraseña</h4>
+      <img src="sources/vpn_key_off_FILL0_wght400_GRAD0_opsz48.svg" alt="Icono contraseña denegada">
+      <button>Aceptar</button>
+    </div>
+    <!--Administrador creado-->
+    <div class="target">
+      <h4>Administrador creado</h4>
+      <img src="sources/person_add_FILL0_wght400_GRAD0_opsz482.svg" alt="Icono administrador creado">
+      <button>Aceptar</button>
+    </div>
+    <!--Datos actualizados-->
+    <div class="target">
+      <h4>Datos actualizados</h4>
+      <img src="sources/fact_check_FILL0_wght400_GRAD0_opsz48.svg" alt="Icono datos actualizados">
+      <button>Aceptar</button>
+    </div>
+    <!--Administrador eliminado-->
+    <div class="target">
+      <h4>Administrador eliminado</h4>
+      <img src="sources/person_remove_FILL0_wght400_GRAD0_opsz48.svg" alt="Icono administrador menos">
+      <button>Aceptar</button>
+    </div>
+    <!--Sesión cerrada-->
+    <div class="target">
+      <h4>Sesión cerrada</h4>
+      <img src="sources/check_circle_FILL0_wght400_GRAD0_opsz48.svg" alt="Icono confirmación">
+      <button>Aceptar</button>
+    </div>
+    <!--Contraseña actualizada-->
+    <div class="target">
+      <h4>Contraseña actualizada</h4>
+      <img src="sources/password_FILL0_wght400_GRAD0_opsz48.svg" alt="Icono contraseña">
+      <button>Aceptar</button>
+    </div>
+    <!--Usuario actualizado-->
+    <div class="target">
+      <h4>Usuario actualizado</h4>
+      <img src="sources/manage_accounts_FILL0_wght400_GRAD0_opsz48.svg" alt="Icono ajustes">
+      <button>Aceptar</button>
+    </div>
+    <!--Especialista creado-->
+    <div class="target">
+      <h4>Especialista creado</h4>
+      <img src="sources/clinical_notes_FILL0_wght400_GRAD0_opsz482.svg" alt="Icono lista">
+      <button>Aceptar</button>
+    </div>
+    <!--Cita creada-->
+    <div class="target">
+      <h4>Cita creada</h4>
+      <img src="sources/event_available_FILL0_wght400_GRAD0_opsz48.svg" alt="Icono calendario">
+      <button>Aceptar</button>
+    </div>
+    <!--Cita modificada-->
+    <div class="target">
+      <h4>Cita modificada</h4>
+      <img src="sources/assignment_turned_in_FILL0_wght400_GRAD0_opsz482.svg" alt="Icono tabla-confirmada">
+      <button>Aceptar</button>
+    </div>
+  </section>
+</body>
+
+</html>
