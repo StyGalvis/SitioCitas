@@ -22,7 +22,7 @@
         <ul class="opciones_nav">
           <li><a href="gestion.html" class="primera_opc">Gestionar cuenta</a></li>
           <li class="pagina_actual"><a href="administradores.html" class="actual">Administradores</a></li>
-          <li><a href="especialistas.html">Especialistas</a></li>
+          <li><a href="especialista.jsp">Especialistas</a></li>
           <li><a href="agenda.html">Agenda</a></li>
           <li><a href="registro.html" class="ultima_opc">Registro</a></li>
         </ul>

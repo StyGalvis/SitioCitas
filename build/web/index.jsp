@@ -11,7 +11,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Vistas/styles.css">
     <title>Gestión de citas-Consultorio SR</title>
 </head>
 
@@ -21,20 +21,20 @@
         <img src="sources/consultorio_removebg.png" alt=" " class="imagen_logo">
     </header>
     <main class="main_index">
-        <form action="gestion.jsp" class="form_loggin">
+        <form action="Vistas/gestion.jsp" class="form_loggin">
             <!--El action es provisional para el flujo al revisar los estilos-->
             <h2>Inicio de sesión</h2>
             <label for="correo">Ingrese su correo:</label>
             <div>
                 <img src="sources/person_FILL0_wght400_GRAD0_opsz48.svg" alt=" ">
-                <input type="email" id="correo" placeholder="abcde@email.com">
+                <input type="email" id="correo" placeholder="abcde@email.com" name="txtCorreo">
             </div>
             <label for="contraseña">Ingrese su contraseña:</label>
             <div>
                 <img src="sources/vpn_key_FILL0_wght400_GRAD0_opsz48.svg" alt=" ">
-            <input type="password" id="contraseña" placeholder="*/+#%$*+$#">
+            <input type="password" id="contraseña" placeholder="*/+#%$*+$#" name="txtPassword">
             </div>
-            <input type="submit" value="Ingresar" class="button">
+            <input type="submit" value="Ingresar" class="button" name="accion">
             <div class="seccion_restablecer">
                 <p>¿Olvido su correo?</p>
                 <p>¿Olvido su contraseña?</p>
