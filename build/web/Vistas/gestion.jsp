@@ -18,11 +18,11 @@
         <h1>Consultorio Odontológico Doctor Sergio Ríos</h1>
             <nav class="nav">
                 <ul class="opciones_nav">
-                    <li><a href="gestion.html" class="primera_opc actual">Gestionar cuenta</a></li>
-                    <li><a href="administradores.html">Administradores</a></li>
-                    <li><a href="especialistas.html">Especialistas</a></li>
-                    <li><a href="agenda.html">Agenda</a></li>
-                    <li><a href="registro.html" class="ultima_opc">Registro</a></li>
+                    <li><a href="gestion.jsp" class="primera_opc actual">Gestionar cuenta</a></li>
+                    <li><a href="admin.jsp">Administradores</a></li>
+                    <li><a href="especialistas.jsp">Especialistas</a></li>
+                    <li><a href="agenda.jsp">Agenda</a></li>
+                    <li><a href="registro.jsp" class="ultima_opc">Registro</a></li>
                 </ul>
             </nav>
     </header>

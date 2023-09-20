@@ -21,7 +21,7 @@
         <img src="sources/consultorio_removebg.png" alt=" " class="imagen_logo">
     </header>
     <main class="main_index">
-        <form action="gestion.html" class="form_loggin">
+        <form action="gestion.jsp" class="form_loggin">
             <!--El action es provisional para el flujo al revisar los estilos-->
             <h2>Inicio de sesión</h2>
             <label for="correo">Ingrese su correo:</label>
