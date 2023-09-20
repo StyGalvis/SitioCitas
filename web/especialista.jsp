@@ -1,3 +1,10 @@
+<%-- 
+    Document   : especialista
+    Created on : 19/09/2023, 9:26:30 p. m.
+    Author     : HP GAMING
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="es">
 

@@ -1,6 +1,11 @@
-<!DOCTYPE html>
-<html lang="es">
+<%-- 
+    Document   : gestion
+    Created on : 19/09/2023, 9:27:13 p. m.
+    Author     : HP GAMING
+--%>
 
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

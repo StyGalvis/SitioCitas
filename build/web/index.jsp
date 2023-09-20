@@ -1,3 +1,10 @@
+<%-- 
+    Document   : index
+    Created on : 19/09/2023, 6:36:53 p. m.
+    Author     : HP GAMING
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="es">
 
